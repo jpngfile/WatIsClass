@@ -1,0 +1,70 @@
+* {
+	background: transparent;
+	border:0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	margin: 0px; 
+	padding: 0px;
+}
+/*
+div {
+	border-style: double;
+}*/
+
+#logo{
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 0;
+
+}
+
+#course-name{
+	margin-top: 10px;
+	margin-bottom: : 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #1E87FF;
+}
+
+#header1{
+	color: #333333;
+	background: #f8f8f8; 
+}
+
+.main-header{
+	text-align: center;
+	color: #fff;
+}
+
+.main-body{
+	position: absolute;
+	width:100%;
+}
+
+.table1{
+	margin-left: 30%;
+	width: 70%;
+	height:100%;
+}
+
+.left-rail{
+	width: 30%;
+	float: left;
+	height:100%;
+}
+
+#course-id{
+	margin-left: 10px;
+}
+
+.btn-group-vertical{
+	width: 100%;
+}
+
+table{
+	width: 100%;
+	border: 1px solid black;
+}
+
+
