@@ -1,0 +1,38 @@
+input.Button {
+	display: inline-block;
+    width: 150px;
+    height: 50px;
+	margin: 20px;
+	font: bold;
+}
+
+body{
+	background:#666666;
+}
+
+div.Button-banner {
+	margin-top: 100px;
+	background: #FF0000;
+	padding-top: 30px;
+	padding-bottom: : 30px;
+	margin-bottom: 30px;
+}
+
+button.Button {
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+
+#myCarousel{
+	width: 80%;
+	height: 1000px;
+	margin: auto;
+}
+
+img.carousel-image {
+	display:block;
+	height: 1000px; 
+	width: auto;
+	margin: auto;
+}
+
