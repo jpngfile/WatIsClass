@@ -1,7 +1,5 @@
 * {
 	background: transparent;
-	border:0;
-	outline: 0;
 	font-size: 100%;
 	vertical-align: baseline;
 	margin: 0px; 
@@ -37,9 +35,17 @@ div {
 	color: #fff;
 }
 
+.lrail-btn{
+	padding-left: 5px;
+}
+
 .main-body{
 	position: absolute;
 	width:100%;
+}
+
+.lecOps{
+	background: #000;
 }
 
 .table1{
@@ -52,6 +58,8 @@ div {
 	width: 30%;
 	float: left;
 	height:100%;
+	border-right-style: solid;
+	border-color: #ccc
 }
 
 #course-id{
@@ -60,6 +68,7 @@ div {
 
 .btn-group-vertical{
 	width: 100%;
+	border-style: none;
 }
 
 table{
