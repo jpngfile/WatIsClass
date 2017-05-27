@@ -21,7 +21,7 @@ from .forms import CourseForm, RoomForm
 
 def index(request):
     template = loader.get_template('openroom/homepage.html')
-    return HttpResponse(template.render(request))
+    return HttpResponse(template.render(request=request))
 @csrf_exempt
 
 def search(request):
@@ -66,7 +66,8 @@ def generate(request):
             room.code = room_code;
             # noinspection PyPep8
             room.save();
-            return HttpResponse('You can visit your room at ' + room_code)
+            return render(request, 'room/detail.html', {'room_code': room_code})
+            # return HttpResponse('You can visit your room at ' + room_code)
 
 
     # if a GET (or any other method) we'll create a blank form
