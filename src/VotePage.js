@@ -11,11 +11,18 @@ var pictures = [
 	"../img/tallCat.jpg",
 	"../img/catBall.jpg"
 	],
-	["../img/tallCat.jpg",
-	"../img/catBall.jpg",
-	"../img/furryCat.jpg",
-	"../img/tallCat.jpg",
-	]
+	["../img/grassDog.jpg",
+	"../img/sunDog.jpg",
+	"../img/blurDog.jpg",
+	"../img/layDog.jpg",
+	"../img/leashDog.jpg"
+	],
+	["../img/cabin.png",
+	"../img/cake.png",
+	"../img/game.png",
+	"../img/safe.png",
+	"../img/submarine.png"
+	],	
 ]
 
 function printId(id){
@@ -53,3 +60,5 @@ function addBorder(element){
 	}
 	element.style.border = "5px solid red";
 }
+
+flipPage(0);
