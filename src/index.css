@@ -1,13 +1,36 @@
+
+
+html,body {
+  height: 100%;
+}
+
+
 body {
   height: 100%;
   margin: 0px;
   padding: 0px
+
 }
+
+
 
 .App {
   font-family: sans-serif;
-
 }
+
+.bg {
+      /* The image used */
+    background-image: url("../img/lectureChalkboard.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -21,11 +44,18 @@ body {
   color: white;
 }
 
-.App-intro {
-  font-size: large;
-  margin-left: 10px;
+.onboard-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
 }
 
+.App-intro {
+  margin-left: 10px;
+  color: white;
+}
+
+/*
 label {
   display: inline-block;
   float: left;
@@ -37,6 +67,16 @@ label {
 input {
   display: inline-block;
   float: left;
+}
+*/
+
+.forms-container {
+  padding: 0px 10px;
+  color: white;
+}
+
+.makeClassForm {
+  display: inline-block;
 }
 
 @keyframes App-logo-spin {

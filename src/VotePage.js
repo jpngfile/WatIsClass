@@ -21,6 +21,11 @@ var pictures = [
 	"../img/cake.png",
 	"../img/game.png",
 	"../img/safe.png",
+	"../img/submarine.png",
+	"../img/cabin.png",
+	"../img/cake.png",
+	"../img/game.png",
+	"../img/safe.png",
 	"../img/submarine.png"
 	],	
 ]
@@ -43,6 +48,7 @@ function flipPage(increment){
 		img.src = pictures[currentPage][i];
 		img.alt = "cat pic";
 		img.width = "500";
+		img.className = "notePicture"
 		img.onclick = function() { addBorder(this); };
 		img.id = "pic" + (i+1).toString();
 		pictureContainer.appendChild(img);

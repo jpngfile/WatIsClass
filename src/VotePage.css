@@ -30,3 +30,7 @@ h2 {
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
+
+.notePicture {
+	padding: 5px;
+}
