@@ -18,7 +18,6 @@ div {
 }
 
 .uw-header--logo .uw-logo {
-	/*margin: 1.3rem 0 0;*/
 	display: block;
 	width: 100%;
 	height: 4.875rem;
@@ -100,7 +99,6 @@ div {
 	font-size: 2.56578rem;
 	font-family: BureauGrotCond,impact,"avenir next condensed heavy","Droid Sans",sans-serif;
     text-transform: uppercase;
-     /*font-size: 1.42383rem; */
     line-height: 1.25;
     text-decoration: none;
 }
