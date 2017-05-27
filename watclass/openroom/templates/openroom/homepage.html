@@ -1,0 +1,13 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'openroom/style.css' %}" />
+
+<h1>Welcome to WatClass </h1>
+<a href="/create/generate/">Generate Room</a>
+
+<form action="/search/" method="GET">
+    {% csrf_token %}
+    {{ form }}
+    <input type="text" name = "course" id = "course" value="Search Room" />
+    <input type="submit" value="Search" />
+</form>

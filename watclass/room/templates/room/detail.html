@@ -1,0 +1,5 @@
+<h1>{{ room.name }}</h1>
+
+{% for lecture in room.lecture_set.all %}
+	<li><a href="{{ lecture.id_num }}">{{lecture.id_num}}</a></li>
+{% endfor %}
