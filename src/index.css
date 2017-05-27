@@ -5,7 +5,6 @@ body {
 }
 
 .App {
-  text-align: center;
   font-family: sans-serif;
 
 }
@@ -24,6 +23,20 @@ body {
 
 .App-intro {
   font-size: large;
+  margin-left: 10px;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: right;
+}
+
+input {
+  display: inline-block;
+  float: left;
 }
 
 @keyframes App-logo-spin {

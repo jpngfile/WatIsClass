@@ -6,27 +6,41 @@
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="favicon/ico" href="mrGoose.ico?">
     <link rel="stylesheet" type="text/css" href="../src/index.css">
+    <link rel="stylesheet" type="text/css" href="../src/UWBanner.css">
     <title>Wat is Class</title>
   </head>
   <body>
     <div class="App">
-        <div class="App-header">
-          <img src='../src/logo.svg' class="App-logo" alt="logo">
-          <h2>Welcome to WatisClass</h2>
+        <div class="uw-page-header">
+          <div id="uw-header-logo" class="uw-header--logo">
+            <a id="uw-logo" class="uw-logo" href="../public/index.html"> Waterloo </a> 
+          </div>
+        </div>
+        <div id="site-colors" class="uw-site--colors">
+          <div class="uw-section--inner">
+            <div class="uw-site--cbar">
+              <div class="uw-site--c1 uw-cbar"></div>
+              <div class="uw-site--c2 uw-cbar"></div>
+              <div class="uw-site--c3 uw-cbar"></div>
+              <div class="uw-site--c4 uw-cbar"></div>
+            </div>
+          </div>
+        </div>
+        <div id="site-header" class="uw-site--header">
+          <div class="uw-section--inner">
+            <a href="https://www.google.ca/" title="WatIsClass">WatIsClass</a>
+          </div>
         </div>
         <p class="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get started, enter a class code or make a new class.
         </p>
         <form method="post" action="../src/VotePage.html">
-          Class Name:<br>
-          <input type="text"> <br>
-          # of pages:<br>
-          <input type="text">
+          <label>Class Name:</label><input type="text"> <br>
+          <label># of pages:</label><input type="text">
           <input type="submit" value="Make Class">
         </form>
         <form id="form" method="post" action="../src/ClassPage.html">
-          Class Code:<br>
-          <input type="text">
+          <label>Class Code:</label><input type="text">
           <input type="submit" value="Join Class">
         </form>
       </div>
