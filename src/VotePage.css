@@ -5,3 +5,11 @@ body {
 	margin: 0px;
 	padding: 0px
 }
+
+.notes-container{
+	overflow-y: scroll;
+	height: 400px;
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+}

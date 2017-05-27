@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="favicon/ico" href="../public/mrGoose.ico?">
-    <link rel="stylesheet" type="text/css" href="ClassPage.css">
+    <link rel="stylesheet" type="text/css" href="VotePage.css">
     <link rel="stylesheet" type="text/css" href="UWBanner.css">
-    <title>React App</title>
+    <title>Wat is Class</title>
   </head>
   <body>
 	<div class="VotePage">
@@ -16,6 +16,7 @@
 				<a id="uw-logo" class="uw-logo" href="../public/index.html"> Waterloo </a> 
 			</div>
 		</div>
+		<!--
 		<div id="site-colors" class="uw-site--colors">
 			<div class="uw-section--inner">
 				<div class="uw-site--cbar">
@@ -31,15 +32,38 @@
 				<a href="https://www.google.ca/" title="WatIsClass">WatIsClass</a>
 			</div>
 		</div>
-		<p>
-		  A BUNCH of RaNKIng
-		</p>
-		<ul id="vertical-list">
-			<li>Lec1</li>
-			<li>Lec2</li>
-			<li>Lec3</li>
-			<li>Lec4</li>
-		</ul>
+		-->
+
+		<div class="notes-container" ">
+			<img src="../img/blackCat.jpg" alt="BlackCat" width="500" onclick="addBorder(this)" id="pic1">
+			<img src="../img/catPair.jpg" alt="CatPair" width="500" onclick="addBorder(this)" id="pic2">
+			<img src="../img/furryCat.jpg" alt="FurryCat" width="500" onclick="addBorder(this)" id="pic3">
+			<img src="../img/tallCat.jpg" alt="TallCat" width="500" onclick="addBorder(this)" id="pic4">
+			<img src="../img/catBall.jpg" alt="CatBall" width="500" onclick="addBorder(this)" id="pic5">
+
+			<img src="../img/blackCat.jpg" alt="BlackCat" width="500" onclick="addBorder(this)" id="pic6">
+			<img src="../img/catPair.jpg" alt="CatPair" width="500" onclick="addBorder(this)" id="pic7">
+			<img src="../img/furryCat.jpg" alt="FurryCat" width="500" onclick="addBorder(this)" id="pic8">
+			<img src="../img/tallCat.jpg" alt="TallCat" width="500" onclick="addBorder(this)" id="pic9">
+			<img src="../img/catBall.jpg" alt="CatBall" width="500" onclick="addBorder(this)" id="pic10">
+
+			<script>
+			function printId(id){
+				console.log(id);
+			}
+
+			function addBorder(element){
+				for (var i = 1; i <= 10; i++){
+					var id = "pic" + i.toString();
+					var pic = document.getElementById(id);
+					pic.style.border = null;
+				}
+				element.style.border = "5px solid red";
+			}
+
+			</script>
+		</div>
+		<h2> Slide 1 <h2>
 	  </div>
   </body>
 </html>
