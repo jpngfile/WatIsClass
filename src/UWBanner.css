@@ -1,4 +1,8 @@
-.ClassPage-header {
+div {
+	display: block;
+}
+
+.uw-page-header {
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
